@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/07/26 14:00:12.000.124,=C:\Users\Anonymous\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/26 14:04:35.000.518,C:\Users\Anonymous\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\GitHub\SOLID\SRP\SRP.View.Principal.fmx</Transaction>
+    <Transaction>2023/07/26 14:04:35.000.518,C:\Users\Anonymous\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\GitHub\SOLID\SRP\SRP.View.Principal.pas</Transaction>
+    <Transaction>2023/07/26 14:04:39.000.593,C:\Users\Anonymous\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\GitHub\SOLID\SRP\SRP.dproj</Transaction>
+    <Transaction>2023/07/26 16:01:23.000.152,=C:\GitHub\SOLID\SRP\Unit1.pas</Transaction>
+    <Transaction>2023/07/26 16:02:16.000.879,C:\GitHub\SOLID\SRP\Unit1.pas=C:\GitHub\SOLID\SRP\SRP.Model.Errado.pas</Transaction>
+    <Transaction>2023/07/26 16:15:38.000.554,=C:\GitHub\SOLID\SRP\Unit1.pas</Transaction>
+    <Transaction>2023/07/26 16:19:12.000.579,C:\GitHub\SOLID\SRP\Unit1.pas=C:\GitHub\SOLID\SRP\SRP.Service.pas</Transaction>
+    <Transaction>2023/07/26 16:19:35.000.163,C:\GitHub\SOLID\SRP\SRP.Service.API=C:\GitHub\SOLID\SRP\SRP.Service.API.API</Transaction>
+    <Transaction>2023/07/26 16:54:01.000.330,C:\GitHub\SOLID\SRP\SRP.Service.API.pas=</Transaction>
+    <Transaction>2023/07/26 19:25:47.000.751,C:\GitHub\SOLID\SRP\SRP.Model.Errado.pas=C:\GitHub\SOLID\SRP\SRP.Errado.pas</Transaction>
+    <Transaction>2023/07/26 19:26:37.000.743,C:\GitHub\SOLID\SRP\SRP.Errado.pas=C:\GitHub\SOLID\SRP\uErrado.pas</Transaction>
+    <Transaction>2023/07/26 19:27:05.000.968,C:\GitHub\SOLID\SRP\uErrado.pas=</Transaction>
+    <Transaction>2023/07/26 19:27:13.000.361,=C:\GitHub\SOLID\SRP\uErrado.pas</Transaction>
+  </Transactions>
+</BorlandProject>
