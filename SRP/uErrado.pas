@@ -5,6 +5,7 @@ interface
 uses
   System.SysUtils,
   System.Classes,
+  System.Math,
   idHTTP,
   REST.JSON;
 
@@ -21,6 +22,7 @@ type
     property Email: string read FEmail write FEmail;
 
 	  function Login(const psEmail, psSenha: string): boolean;
+    function GetUser: TUsuario;
   end;
 
   TCredenciais = class
@@ -31,6 +33,11 @@ type
 implementation
 
 { TUsuario }
+
+function TUsuario.GetUser: TUsuario;
+begin
+  Result := Self;
+end;
 
 function TUsuario.Login(const psEmail, psSenha: string): boolean;
 var
@@ -58,7 +65,7 @@ begin
         'User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36';
 
       lsJSONRes := loidHTTP.Post(URL, lsJSONReq);
-      if loidHTTP.ResponseCode = 200 then
+      if InRange(loidHTTP.ResponseCode, 200, 299) then
         Result := True
       else
         Result := False;
