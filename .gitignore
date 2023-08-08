@@ -69,3 +69,5 @@ __recovery/
 
 # Boss dependency manager vendor folder https://github.com/HashLoad/boss
 modules/
+/SRP/SRP.dproj.local
+/SRP/SRP.identcache
