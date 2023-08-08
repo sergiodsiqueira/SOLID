@@ -1,2 +1,2 @@
-# SOLID
-## (O)CP
+# S(O)LID
+## OCP - Open/Closed Principle
